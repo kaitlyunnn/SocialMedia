@@ -1,75 +1,118 @@
 # ZipJeweler — Content Guide
 
-This file is the **single source of truth** for the automated daily Instagram
-posts. The daily job reads it before every post. Edit anything here and the next
-run follows it — no other changes needed.
-
-> Lines marked **[FILL IN]** are things only you know — please replace them.
-
----
-
-## Brand at a glance
-
-- **Name:** ZipJeweler
-- **Website / CTA:** https://zipjeweler.com
-- **What we do:** Custom fine jewelry — we turn a customer's idea or hand-drawn
-  sketch into a photorealistic render *before* production, so they can see the
-  piece before it's made.
-- **Instagram:** @zipjeweler
-- **Audience:** [FILL IN — e.g. couples shopping for engagement rings, gift buyers, luxury shoppers, ages 25–45]
-- **Vibe:** luxury, aspirational, craftsmanship, trustworthy, "see it before you buy it"
+Single source of truth for the automated daily Instagram posts. The daily job
+reads this before every post. Edit it and the next run follows — no other
+changes needed. Derived from the ZipJeweler Brandbook, MVP PRD, Executive
+Summary, and Instagram Marketing Plan (June 2026).
 
 ---
 
-## Image direction
+## What ZipJeweler actually is (read this first)
 
-- **Model:** `marketing_studio_image` (Higgsfield), aspect ratio **4:5**, no text/watermark.
-- **Look:** photorealistic high-end jewelry advertising — soft studio lighting,
-  clean minimal backgrounds (marble, satin, neutral gradients), shallow depth of
-  field, crisp reflections, ultra-detailed.
-- **Subjects to rotate (one per weekday so nothing repeats):**
-  - Mon — custom diamond engagement ring (vary cut: oval, emerald, cushion, pear)
-  - Tue — pearl necklace / pearl drop pendant
-  - Wed — diamond stud or hoop earrings
-  - Thu — diamond tennis bracelet or bangle
-  - Fri — colored-gemstone cocktail ring (sapphire / emerald / ruby)
-  - Sat — gold pendant or layered gold necklace
-  - Sun — matching wedding band set or eternity ring
-- **Vary each day:** metal (18k white/yellow/rose gold, platinum), setting, background.
-- **Avoid:** [FILL IN — e.g. models/hands if you only want product shots, busy backgrounds, cheap-looking props, specific gemstones you don't sell]
-- **Occasionally feature (optional):** the "sketch → render" concept (a hand-drawn
-  design beside its photorealistic render) — this is the brand's signature story.
+**ZipJeweler is a B2B SaaS product — "the operating system for the custom
+jewelry studio."** We sell **software to jewelers**, NOT jewelry to consumers.
+Do not write posts that try to sell rings to shoppers.
 
-## Products we actually sell / don't sell
-[FILL IN — list real product lines, materials, price positioning, and anything
-we should NOT depict, e.g. "no gold-plated, no lab-grown unless labeled."]
+- **The pitch:** AI removes the friction at the front of custom work (concept &
+  visualization) and structure removes the chaos at the back (production,
+  payment, delivery). One place where a piece travels from imagined idea to
+  delivered heirloom.
+- **Signature demo (our most shareable asset):** *client sketch →
+  photorealistic concept → production folder in ~30 seconds.*
+- **Key features:** "Imagine" AI design consultant (structured client intake) ·
+  AI concept / sketch-to-render generation · project folders (specs, assets,
+  timeline) · the 8-stage pipeline (Concept → Design → CAD → Approval → Casting
+  → Setting → Finishing → Delivery) · live bill of materials + markup pricing ·
+  branded client status emails · 7-stage order tracker · products library ·
+  Stripe billing.
+- **Stage:** pre-launch / closed beta. Primary CTA is **join the waitlist /
+  request early access at zipjeweler.com** — NOT "buy this ring."
+
+## Audience
+
+- **Buyer:** owners of independent, solo-to-~10-person custom jewelry studios in
+  the US doing ~5–30 active custom pieces at a time.
+- **Users:** studio owner, designer/CAD contractor, bench jeweler, front-of-house.
+- **They feel these pains:** lost margin from quoting by memory (no live bill of
+  materials), hours/week on "where's my ring?" client emails, days of design
+  time before a deposit, no system of record when a client returns.
+- **Speak their language:** karats, castings, settings, stone certs, CAD, the
+  bench. Peer-to-peer and credible, never generic-consumer.
+
+## Voice & captions
+
+- **Tone:** confident, plainspoken, benefit-led, a little editorial. Talk to a
+  busy jeweler, not a bride. 1–2 tasteful emoji max.
+- **Structure:** (1) a hook that names a real pain or a bold outcome; (2) 1–2
+  lines on how ZipJeweler solves it; (3) a CTA — usually "Join the waitlist at
+  zipjeweler.com" / "See the 30-second sketch-to-concept demo" / "Request early
+  access."
+- **Proof points you MAY use (from the docs, all truthful):** concept-to-approval
+  cut from ~14 days to under 5 · protects the 40–50% markup with a live bill of
+  materials · one pipeline from concept to delivery · AI concepts generated in
+  minutes, not days.
+- **Never:** invent prices/discounts beyond the real plans (Free / Studio $79/mo
+  / Team $149/mo), promise features not listed above, imply we sell finished
+  jewelry, or present AI images as a client's actual finished piece. Always frame
+  AI images as **concepts**.
+
+### Hashtags (12–15, lead with #ZipJeweler #CustomJewelry)
+Trade + AI + custom-jewelry mix. Draw from:
+`#ZipJeweler #CustomJewelry #Jeweler #JewelryBusiness #JewelryStudio
+#BenchJeweler #JewelryCAD #JewelryRendering #AIforJewelers #JewelryTech
+#CustomJewelryDesign #JewelryTrade #JewelersOfInstagram #MadeToOrder
+#JewelryDesign #GoldsmithLife #SmallBusinessTools`
 
 ---
 
-## Caption voice
+## Weekly content calendar (from the Marketing Plan)
 
-- **Tone:** elegant, warm, confident. Short. No emoji spam (1–2 tasteful emoji max).
-- **Structure:**
-  1. A punchy hook line (e.g. "Designed to say yes. 💍").
-  2. 1–2 lines connecting the piece to the brand story (idea → photorealistic render → made to order).
-  3. A clear CTA: **visit zipjeweler.com** and/or "send us your idea."
-- **Always:** specific to the piece shown that day (mention the metal/stone/style).
-- **Never:** invent prices, discounts, or claims we can't back up. [FILL IN any claims we CAN make, e.g. free consultation, lifetime warranty, ships in X weeks.]
+One post daily at 12:00 PM Central. Each weekday has a pillar:
 
-### Hashtags
-Use 12–15, always leading with `#ZipJeweler #CustomJewelry`, then mix
-piece-specific + discovery tags. Core set to draw from:
-`#CustomJewelry #JewelryDesign #JewelryRendering #CADJewelry #BespokeJewelry
-#FineJewelry #JewelryDesigner #MadeToOrder #LuxuryJewelry #FromSketchToReality
-#JewelryOfInstagram #JewelryArt #CustomMade` + piece tags like
-`#EngagementRing #DiamondRing #PearlNecklace #GoldNecklace #TennisBracelet`.
-[FILL IN — any branded/local hashtags you use, e.g. a city or a campaign tag.]
+| Day | Pillar | Good for pure AI image? |
+|---|---|---|
+| Mon | Before & After jewelry transformations | Partial — sketch/idea → render pairing |
+| Tue | Sketch → Render showcases (signature) | ✅ Yes |
+| Wed | ZipJeweler feature spotlight | ❌ Needs real app screenshot/graphic |
+| Thu | Educational tips for jewelers | ❌ Better as a designed tip card |
+| Fri | AI concept generation showcase / inspiration gallery | ✅ Yes |
+| Sat | Product workflow / automation walkthrough | ❌ Needs real app screenshot |
+| Sun | Vision for the future of AI in jewelry | ✅ Yes (conceptual/editorial) |
 
----
+**Content pillars overall:** jewelry transformations, AI rendering, workflow
+automation, production pipeline, educational content, product announcements,
+industry inspiration.
+
+### Autonomous-image rule
+The daily job can only generate images from text (no real app screenshots). So:
+- On ✅ days, generate a premium jewelry **concept/render** image.
+- On ❌ days (Wed/Thu/Sat), do **NOT** fabricate fake UI or false claims.
+  Instead generate a clean, on-brand jewelry **concept** image and write the
+  caption toward that day's pillar (e.g., a feature benefit, an educational tip,
+  a workflow idea). Flag in the daily report that a real screenshot/graphic
+  would serve that pillar better.
+
+## Image direction (from the Brandbook)
+
+- **Model:** `marketing_studio_image` (Higgsfield), aspect ratio **4:5**, no
+  text/watermark.
+- **Aesthetic — "the interface is chromatically silent":** true neutral
+  backgrounds (soft off-white `#F6F6F5`, light workspace grays), no color cast so
+  metal tones and gemstones read true. Clean, uncluttered, premium, plenty of
+  negative space. Soft studio lighting, crisp reflections, shallow depth of field.
+- **The one luxury accent:** a rationed **champagne** tone (`#B49A6C`) — use
+  sparingly as a highlight, never a loud gold. Optional cool steel-blue
+  (`#38566B`) as a secondary accent.
+- **Signature visual:** the sketch-to-render story — a rough hand sketch beside
+  its photorealistic concept — whenever it fits the day.
+- **Jewelry subjects to draw from:** engagement rings (vary cut/metal), pearl and
+  gemstone pieces, earrings, bracelets, wedding sets — always as *client-concept
+  examples the platform could produce*, not as products for sale.
 
 ## Posting rules
 
 - **Channel:** Instagram @zipjeweler (Buffer channelId `6a4fe45d40483446288ab63d`)
-- **Cadence:** 1 post/day, ~12:00 PM Central (set by the scheduled Routine).
-- **Type:** feed post (image), auto-published.
-- [FILL IN — any days to skip, seasonal campaigns, or a location tag to add.]
+- **Cadence:** 1 post/day, 12:00 PM Central.
+- **Type:** feed post (image), 4:5.
+- **KPIs to optimize for:** engagement > 8%, saves > 5%, waitlist signups, demo
+  requests, follower growth. (Saves reward genuinely useful/educational posts.)
