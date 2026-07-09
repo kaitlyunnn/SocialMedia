@@ -115,6 +115,39 @@ The daily job can only generate images from text (no real app screenshots). So:
   a workflow idea). Flag in the daily report that a real screenshot/graphic
   would serve that pillar better.
 
+## Carousel copy rotation (auto-written each week — EDIT THESE to steer topics)
+
+The Wed/Sat carousels reuse the fixed slide templates and the app screenshots in
+`media/`, but the **copy is written fresh each week**. The job picks this week's
+angle by ISO week number (angle = list[weekNumber % listLength]), then writes new
+headlines/subtitle/body/CTA around it — never repeating the same wording. Add,
+remove, or reorder angles here and the automation follows.
+
+**Screenshots available** (only spotlight things we have a capture for):
+`media/app-imagine.png` (Imagine intake + Project folder) ·
+`media/app-creations.png` (Creations / AI concepts) ·
+`media/app-projects.png` (Projects pipeline board).
+A feature needs a matching screenshot; if we don't have one, pick a different angle.
+
+### Wednesday — Feature spotlight angles
+(cover → 2 screenshot slides → CTA; choose the 2 screenshots that fit the angle)
+1. Imagine: a client chat becomes a structured project folder (imagine → projects)
+2. AI concept generation: idea/sketch → photorealistic concept in minutes (imagine → creations)
+3. The Creations library: every concept saved and reusable (creations → projects)
+4. Defensible quoting: build the price from a live bill of materials (imagine → projects)
+5. The pipeline: one board from Concept → Shipped (projects → imagine)
+6. Speed: concept-to-approval from ~14 days to under 5 (imagine → creations)
+
+### Saturday — Workflow walkthrough angles
+(cover → 3 numbered steps sketch→concept→folder, using imagine → creations → projects → CTA;
+keep the 3 steps, reframe the hook/story each week)
+1. Sketch to production folder in 30 seconds
+2. Kill the 2–4 day CAD wait — sell the vision before the excitement fades
+3. Stop losing the sale to slow concepts
+4. One pipeline, idea to delivered heirloom
+5. Sell the vision first, build the CAD after commitment
+6. The slowest, costliest step of custom work — in half a minute
+
 ## Image direction (from the Brandbook)
 
 - **Model:** `marketing_studio_image` (Higgsfield), aspect ratio **4:5**, no
