@@ -1,0 +1,57 @@
+{
+  "pillar": "Saturday — Workflow walkthrough",
+  "slides": [
+    {
+      "template": "slide-cover.html",
+      "data": {
+        "eyebrow": "Workflow walkthrough",
+        "headline": "Sketch to production folder in 30 seconds.",
+        "headlineSize": "80",
+        "subtitle": "Three steps, one pipeline. Here's the demo the whole trade is sharing.",
+        "handle": "@zipjeweler",
+        "footerRight": "Swipe →"
+      }
+    },
+    {
+      "template": "slide-shot-numeral.html",
+      "data": {
+        "numeral": "01",
+        "headline": "Drop the client's rough sketch.",
+        "shotStyle": "background-image:url('../media/app-imagine.png');",
+        "handle": "@zipjeweler",
+        "site": "zipjeweler.com"
+      }
+    },
+    {
+      "template": "slide-shot-numeral.html",
+      "data": {
+        "numeral": "02",
+        "headline": "Generate a photorealistic concept.",
+        "shotStyle": "background-image:url('../media/app-creations.png');",
+        "handle": "@zipjeweler",
+        "site": "zipjeweler.com"
+      }
+    },
+    {
+      "template": "slide-shot-numeral.html",
+      "data": {
+        "numeral": "03",
+        "headline": "Open the production-ready folder.",
+        "shotStyle": "background-image:url('../media/app-projects.png');",
+        "handle": "@zipjeweler",
+        "site": "zipjeweler.com"
+      }
+    },
+    {
+      "template": "slide-cta.html",
+      "data": {
+        "eyebrow": "Run it yourself",
+        "headline": "The slowest step of custom work, in half a minute.",
+        "headlineSize": "80",
+        "body": "Start free — 3 projects and AI generations, no card required.",
+        "button": "Start free at zipjeweler.com",
+        "handle": "@zipjeweler"
+      }
+    }
+  ]
+}
