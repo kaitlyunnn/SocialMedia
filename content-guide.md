@@ -116,5 +116,5 @@ The daily job can only generate images from text (no real app screenshots). So:
 - **Channel:** Instagram @zipjeweler (Buffer channelId `6a4fe45d40483446288ab63d`)
 - **Cadence:** 1 post/day, 12:00 PM Central.
 - **Type:** feed post (image), 4:5.
-- **KPIs to optimize for:** engagement > 8%, saves > 5%, waitlist signups, demo
+- **KPIs to optimize for:** engagement > 8%, saves > 5%, free signups, demo
   requests, follower growth. (Saves reward genuinely useful/educational posts.)
