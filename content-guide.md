@@ -25,8 +25,9 @@ Do not write posts that try to sell rings to shoppers.
   → Setting → Finishing → Delivery) · live bill of materials + markup pricing ·
   branded client status emails · 7-stage order tracker · products library ·
   Stripe billing.
-- **Stage:** pre-launch / closed beta. Primary CTA is **join the waitlist /
-  request early access at zipjeweler.com** — NOT "buy this ring."
+- **Stage:** LIVE product (freemium — Free / Studio $79/mo / Team $149/mo).
+  Primary CTA is **start free / get started at zipjeweler.com** — NOT "buy this
+  ring." There is no waitlist; the product is available now.
 
 ## Audience
 
@@ -44,9 +45,10 @@ Do not write posts that try to sell rings to shoppers.
 - **Tone:** confident, plainspoken, benefit-led, a little editorial. Talk to a
   busy jeweler, not a bride. 1–2 tasteful emoji max.
 - **Structure:** (1) a hook that names a real pain or a bold outcome; (2) 1–2
-  lines on how ZipJeweler solves it; (3) a CTA — usually "Join the waitlist at
-  zipjeweler.com" / "See the 30-second sketch-to-concept demo" / "Request early
-  access."
+  lines on how ZipJeweler solves it; (3) a CTA — usually "Start free at
+  zipjeweler.com" / "Get started at zipjeweler.com" / "See the 30-second
+  sketch-to-concept demo." The product is live — invite people to try it, never
+  to "join a waitlist."
 - **Proof points you MAY use (from the docs, all truthful):** concept-to-approval
   cut from ~14 days to under 5 · protects the 40–50% markup with a live bill of
   materials · one pipeline from concept to delivery · AI concepts generated in
