@@ -8,5 +8,10 @@
     "type": "post"
   },
   "mode": "customScheduled",
-  "dueAt": "2026-07-10T14:15:00-05:00"
+  "dueAt": "2026-07-10T14:15:00-05:00",
+  "result": {
+    "postId": "6a4ff43e0ea5a9637ec33fa9",
+    "status": "scheduled",
+    "dueAt": "2026-07-10T19:15:00.000Z"
+  }
 }
