@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  *{margin:0;box-sizing:border-box;}
+  body{background:#D8D7D5;}
+  .ig-frame{width:1080px;height:1350px;display:flex;flex-direction:row;overflow:hidden;background:#F6F6F5;position:relative;}
+  .half{width:50%;height:100%;background-size:cover;background-position:center center;background-repeat:no-repeat;}
+  /* subtle seam between the two halves */
+  .half.right{box-shadow:-1px 0 0 rgba(255,255,255,0.9), inset 1px 0 0 rgba(0,0,0,0.04);}
+</style>
+</head>
+<body>
+  <div class="ig-frame">
+    <div class="half left" style="{{leftStyle}}"></div>
+    <div class="half right" style="{{rightStyle}}"></div>
+  </div>
+</body>
+</html>
