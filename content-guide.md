@@ -21,13 +21,34 @@ Do not write posts that try to sell rings to shoppers.
   photorealistic concept → production folder in ~30 seconds.*
 - **Key features:** "Imagine" AI design consultant (structured client intake) ·
   AI concept / sketch-to-render generation · project folders (specs, assets,
-  timeline) · the 8-stage pipeline (Concept → Design → CAD → Approval → Casting
-  → Setting → Finishing → Delivery) · live bill of materials + markup pricing ·
-  branded client status emails · 7-stage order tracker · products library ·
-  Stripe billing.
-- **Stage:** LIVE product (freemium — Free / Studio $79/mo / Team $149/mo).
-  Primary CTA is **start free / get started at zipjeweler.com** — NOT "buy this
-  ring." There is no waitlist; the product is available now.
+  timeline) · the production pipeline · live cost estimates & markup pricing ·
+  branded client status · products/creations library.
+- **Stage:** LIVE product (freemium). Primary CTA is **start free / get started
+  at zipjeweler.com** — NOT "buy this ring." There is no waitlist; the product
+  is available now. (Plan names visible in-app: "Designer plan"; pricing per
+  docs: Free / Studio $79/mo / Team $149/mo — confirm exact current names/prices
+  before quoting them in a caption.)
+
+## Real product details (from the live app — use these for accurate captions)
+
+- **Navigation:** Home · Creations · Projects · Imagine (AI) · Commissions (Soon) · Settings.
+- **Imagine (the AI consultant):** chats the jeweler through an idea and extracts
+  **Client · Type · Metal · Center stone · Side stones · Ring size · Budget ·
+  Deadline**, building a "Project folder" with a live **Readiness %**. Quick
+  actions: **Generate image · Summarize design · Estimate costs · 3D model**, then
+  **Create project folder**.
+- **Home / creation:** a prompt box ("Begin describing your creation…") with an
+  **Assisted Builder**, **Standard / Pro** quality toggle, and one-tap
+  **Render Styles**: *Studio White · Dark Mirror · On-Hand · Macro Sparkle ·
+  Velvet Box · Golden Hour* (tapping a style adds it to the prompt).
+- **Projects / pipeline stages (real, in-app):** **Concept → Design → CAD → Quote
+  → Approved → Production → Shipped.** Each piece shows Client, Stage, Retail,
+  Updated. (Use THESE stage names, not the PRD's longer casting/setting list.)
+- **AI tools on Projects:** New project · Design with AI · **Stone Finder API** · **File Hub**.
+- **Creations:** a gallery of generated concepts (rings, necklaces, bracelets,
+  pendants). These are exactly the kind of concept imagery to echo in posts.
+- Great real hooks for the app-centric days: the six render styles, the Imagine
+  intake-to-folder flow, Estimate costs, Stone Finder, and the pipeline board.
 
 ## Audience
 
