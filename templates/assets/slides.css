@@ -21,12 +21,14 @@ body{background:#D8D7D5;}
 .ig-footer{margin-top:auto;padding-top:40px;border-top:1px solid var(--zj-border);
   display:flex;justify-content:space-between;align-items:baseline;font-size:27px;font-weight:500;color:var(--zj-text-secondary);}
 .ig-footer .site{color:var(--zj-action);font-weight:600;}
-/* screenshot frame */
-.shot-frame{flex:1 1 auto;background:var(--zj-workspace);border:1px solid var(--zj-border);
-  border-radius:16px;overflow:hidden;display:flex;flex-direction:column;}
+/* screenshot frame — a landscape browser card centered in the remaining space */
+.shot-wrap{flex:1 1 auto;display:flex;align-items:center;}
+.shot-frame{width:100%;background:var(--zj-workspace);border:1px solid var(--zj-border);
+  border-radius:16px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 12px 40px rgba(32,34,36,0.08);}
 .shot-bar{height:56px;flex:0 0 auto;display:flex;align-items:center;gap:14px;padding:0 26px;
   border-bottom:1px solid var(--zj-border);background:var(--zj-surface);}
 .shot-dot{width:15px;height:15px;border-radius:999px;background:var(--zj-border);}
-.shot-body{position:relative;flex:1 1 auto;background-size:cover;background-position:top center;background-repeat:no-repeat;}
+/* aspect matches the 1920×953 app captures, so cover shows the full screen with no crop */
+.shot-body{position:relative;width:100%;aspect-ratio:1920/953;background-size:cover;background-position:top center;background-repeat:no-repeat;}
 .shot-body .placeholder{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
   color:#8B8E93;font-size:26px;font-weight:500;text-align:center;padding:0 40px;}
