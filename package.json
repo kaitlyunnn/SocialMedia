@@ -1,0 +1,12 @@
+{
+  "name": "socialmedia",
+  "private": true,
+  "type": "module",
+  "description": "ZipJeweler Instagram automation — Buffer posting + branded slide rendering",
+  "scripts": {
+    "render": "node templates/render.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.40.0"
+  }
+}

@@ -113,9 +113,7 @@ The daily job can only generate images from text (no real app screenshots). So:
   Instead generate a clean, on-brand jewelry **concept** image and write the
   caption toward that day's pillar (e.g., a feature benefit, an educational tip,
   a workflow idea). Flag in the daily report that a real screenshot/graphic
-  would serve that pillar better. If real app screenshots are committed to the
-  repo (e.g., a `media/` folder), prefer those for Wed/Sat via their raw GitHub
-  URL instead of a concept image.
+  would serve that pillar better.
 
 ## Image direction (from the Brandbook)
 

@@ -1,0 +1,47 @@
+{
+  "pillar": "Wednesday — Feature spotlight",
+  "slides": [
+    {
+      "template": "slide-cover.html",
+      "data": {
+        "eyebrow": "Feature spotlight",
+        "headline": "Imagine",
+        "headlineSize": "108",
+        "subtitle": "Turn a client conversation into a structured, production-ready project folder — in one paste.",
+        "handle": "@zipjeweler",
+        "footerRight": "✦ New in ZipJeweler"
+      }
+    },
+    {
+      "template": "slide-shot-eyebrow.html",
+      "data": {
+        "eyebrow": "Step 01 · Paste",
+        "headline": "Drop the client chat. Imagine reads it like a jeweler.",
+        "shotStyle": "background-image:url('../media/app-imagine.png');",
+        "handle": "@zipjeweler",
+        "site": "zipjeweler.com"
+      }
+    },
+    {
+      "template": "slide-shot-eyebrow.html",
+      "data": {
+        "eyebrow": "Step 02 · Structured",
+        "headline": "Specs, stones, and timeline — filed automatically.",
+        "shotStyle": "background-image:url('../media/app-projects.png');",
+        "handle": "@zipjeweler",
+        "site": "zipjeweler.com"
+      }
+    },
+    {
+      "template": "slide-cta.html",
+      "data": {
+        "eyebrow": "Ready to build one?",
+        "headline": "Your next commission starts as a conversation.",
+        "headlineSize": "76",
+        "body": "Free plan includes 3 projects and AI generations. No card to start.",
+        "button": "Start free at zipjeweler.com",
+        "handle": "@zipjeweler"
+      }
+    }
+  ]
+}

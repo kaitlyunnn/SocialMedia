@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./assets/fonts/fonts.css">
+<style>
+  :root{
+    --zj-canvas:#F6F6F5; --zj-surface:#FFFFFF; --zj-border:#E1E1DF;
+    --zj-text:#202224; --zj-text-secondary:#5B5E63;
+    --zj-action:#38566B; --zj-champagne:#B49A6C;
+    --zj-champagne-tint:#F5F1E8; --zj-champagne-text:#7A6238;
+    --zj-font-ui:'Inter',-apple-system,'Segoe UI',sans-serif;
+    --zj-font-serif:'Source Serif 4',Georgia,serif;
+  }
+  *{margin:0;box-sizing:border-box;}
+  body{background:#D8D7D5;}
+  .ig-frame{
+    width:1080px;height:1350px;background:var(--zj-canvas);position:relative;overflow:hidden;
+    display:flex;flex-direction:column;font-family:var(--zj-font-ui);color:var(--zj-text);
+  }
+  .ig-pad{padding:96px 88px;display:flex;flex-direction:column;height:100%;box-sizing:border-box;}
+  .ig-eyebrow{font-weight:600;font-size:22px;letter-spacing:3.2px;text-transform:uppercase;color:var(--zj-champagne-text);}
+  .badge{display:inline-flex;align-items:center;justify-content:center;width:62px;height:62px;border-radius:8px;
+    background:var(--zj-champagne-tint);color:var(--zj-champagne-text);font-size:30px;font-weight:600;font-feature-settings:'tnum' 1;}
+  .headline{font-family:var(--zj-font-serif);font-weight:600;font-size:82px;line-height:1.06;letter-spacing:-1px;margin:56px 0 0;color:var(--zj-text);}
+  .body{font-size:32px;line-height:1.5;font-weight:400;color:var(--zj-text-secondary);margin:40px 0 0;max-width:820px;}
+  .spec{margin-top:52px;background:var(--zj-surface);border:1px solid var(--zj-border);border-radius:12px;padding:12px 36px;}
+  .spec-row{display:flex;justify-content:space-between;align-items:baseline;padding:22px 0;border-bottom:1px solid var(--zj-border);}
+  .spec-row:last-child{border-bottom:0;}
+  .spec-label{font-size:27px;color:var(--zj-text-secondary);}
+  .spec-label.em{font-weight:600;color:var(--zj-text);}
+  .spec-val{font-feature-settings:'tnum' 1;font-size:29px;font-weight:500;color:var(--zj-text);}
+  .spec-val.em{font-size:32px;font-weight:600;color:var(--zj-action);}
+  .ig-footer{margin-top:auto;padding-top:40px;border-top:1px solid var(--zj-border);display:flex;justify-content:space-between;align-items:baseline;font-size:27px;font-weight:500;color:var(--zj-text-secondary);}
+  .ig-footer .site{color:var(--zj-action);font-weight:600;}
+</style>
+</head>
+<body>
+  <div class="ig-frame">
+    <div class="ig-pad">
+      <div style="display:flex;align-items:center;gap:20px;">
+        <span class="badge">{{badgeNumber}}</span>
+        <p class="ig-eyebrow">{{eyebrow}}</p>
+      </div>
+      <h1 class="headline">{{headline}}</h1>
+      <p class="body">{{body}}</p>
+      <div class="spec">
+        <div class="spec-row"><span class="spec-label">{{row1label}}</span><span class="spec-val">{{row1value}}</span></div>
+        <div class="spec-row"><span class="spec-label">{{row2label}}</span><span class="spec-val">{{row2value}}</span></div>
+        <div class="spec-row"><span class="spec-label em">{{row3label}}</span><span class="spec-val em">{{row3value}}</span></div>
+      </div>
+      <div class="ig-footer">
+        <span>{{handle}}</span>
+        <span class="site">{{cta}}</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
