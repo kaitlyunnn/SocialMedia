@@ -1,0 +1,52 @@
+name: Buffer — drain post queue
+
+on:
+  # New/changed queue entries get scheduled as soon as they're pushed
+  push:
+    paths:
+      - "queue/**"
+  # Daily retry for entries that couldn't be scheduled (e.g. plan limit reached)
+  schedule:
+    - cron: "43 14 * * *"
+  # Manual run from the Actions tab
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (print payloads, don't post)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: buffer-post
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Create posts in Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+        run: node scripts/post.mjs
+
+      - name: Commit processed queue entries
+        run: |
+          if [ -n "$(git status --porcelain queue posted)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add queue posted
+            git commit -m "chore: archive scheduled posts [skip ci]"
+            git push
+          else
+            echo "no queue changes to commit"
+          fi
